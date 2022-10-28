@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    position: relative;
+}
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.navigate li {
+    list-style: none;
+}
+.navigate button {
+    border: none;
+    background-color: #ff9575;
+    color: #fafafa;
+    padding: 11px 14px;
+    font-weight: 500;
+    margin: 0 3px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.navigate button:hover {
+      background-color: #fafafa;
+    color: #190600;
+    border: 1px solid #190600;
+}
+.navigate button:disabled {
+    background-color: #eff4f7;
+    border: none;
+    color: grey
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,40 @@
+.user-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.user-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.user-group-item {
+    text-align: center;
+    max-height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 40px;
+    border: 1px dotted black;
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    outline: none;
+    /* cursor: pointer; */
+    /* transition: 0.3s ease-in; */
+    word-wrap: break-word;
+}
+
+.user-group-item >img {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+/* .user-group-item:hover {
+    background-color: #39a2db;
+    color: #ffffff;
+} */
